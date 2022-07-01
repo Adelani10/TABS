@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.tab-btn.active{
+    background-color: white;
+}
+.content.active {
+    display: block;
+}
+.tab-btn:hover:not(.active){
+    background-color: rgba(237, 225, 225, 0.729);
+}
